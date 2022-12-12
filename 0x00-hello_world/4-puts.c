@@ -1,19 +1,35 @@
 #include <stdio.h>
 
+#include <string.h>
+
+
+
 /**
  *
- *  * Description: main - Prints out a string to stdout.
+ * *main - Main function of my project
  *
- *   * Return: 0 if success.
+ * *
  *
- *    */
+ * *
+ *
+ * *Return: return 0 everytime
+ *
+ * */
 
 int main(void)
 
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
 
-			return (0);
+
+		char displayed[52];
+
+
+
+			strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+
+				puts(displayed);
+
+					return (0);
 
 }
