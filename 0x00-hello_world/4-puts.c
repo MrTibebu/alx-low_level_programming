@@ -1,18 +1,12 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
-*
-*main - Main function of my project
-*
-*
-*Return: return 0 everytime
-*/
+ * main - prints the phrase with proper grammar,
+ * but the outcome is a piect of art,
+ * Return: 0 if exited properly, non-zero otherwise 
+ */
 int main(void)
 {
-
-	char displayed[52];
-	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
-	puts(displayed);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
