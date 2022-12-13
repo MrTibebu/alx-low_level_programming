@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints the phrase with proper grammar,
- * but the outcome is a piect of art,
- * Return: 0 if exited properly, non-zero otherwise 
+ *  main - prints a given phrase
+ *  Return: 0 if exited properly, non-zero otherwise
  */
-int main(void)
+
+int  main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+		puts("\"Programming is like building a multilingual puzzle");
+		return (0);
 }
