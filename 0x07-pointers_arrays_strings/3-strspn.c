@@ -1,19 +1,17 @@
 #include "main.h"
-
 /**
  * _strspn - search a string for a set of bytes
  * @s: char string array
  * @accept: char array to check bytes with
  * Return: Number of bytes in the intial segment of `s`
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	int i;
 	int j;
 	int c;
 
-	a = 0;
+	i = 0;
 	c = 0;
 	while (s[i] != '\0')
 	{
@@ -22,14 +20,14 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-			c++;
-			break;
+				c++;
+				break;
 			}
-		j++;
+			j++;
 		}
-	if (accept[j] == '\0')
-	break;
-	i++;
+		if (accept[j] == '\0')
+		break;
+		i++;
 	}
-return (c);
+	return (c);
 }
